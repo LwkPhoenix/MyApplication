@@ -8,57 +8,62 @@
     <TextView
         android:id="@+id/loginTitle"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Login"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:gravity="center"
+        android:layout_height="145dp"
         android:layout_gravity="center_horizontal"
-        android:paddingBottom="24dp"/>
+        android:gravity="center"
+        android:paddingBottom="32dp"
+        android:text="Login"
+        android:textSize="64sp"
+        android:textStyle="bold" />
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="360dp"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginBottom="8dp">
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="Username"
-            android:layout_weight="1"/>
+            android:textAlignment="center"
+            android:textSize="16sp" />
 
         <EditText
             android:id="@+id/usernameField"
-            android:layout_width="0dp"
+            android:layout_width="1dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:inputType="text"/>
+            android:inputType="text" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="360dp"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginBottom="8dp">
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="Password"
-            android:layout_weight="1"/>
+            android:textAlignment="center"
+            android:textSize="16sp" />
 
         <EditText
             android:id="@+id/passwordField"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:inputType="textPassword"/>
+            android:inputType="textPassword" />
     </LinearLayout>
 
     <Button
         android:id="@+id/loginButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Login"/>
+        android:layout_width="313dp"
+        android:layout_height="92dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Login"
+        android:textSize="32sp"/>
 </LinearLayout>

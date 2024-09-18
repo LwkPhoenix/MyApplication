@@ -20,7 +20,6 @@ public class User {
         return password;
     }
 
-    // Static method to simulate a list of valid users
     public static List<User> getUserList() {
         List<User> users = new ArrayList<>();
         users.add(new User("user1", "password1"));
@@ -29,7 +28,6 @@ public class User {
         return users;
     }
 
-    // Static method to validate the user login
     public static boolean validateUser(String username, String password) {
         for (User user : getUserList()) {
             if (user.getUsername().equals(username) && user.getPassword().equals(password)) {
